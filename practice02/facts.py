@@ -7,8 +7,8 @@ Person = collections.namedtuple('Person', ['github_login', 'first_name', 'last_n
 people = [
     Person(github_login='example', first_name='Name', last_name='Surname',
            facts=['Fact-right.', 'Fact-write.', 'Fact-right.']),
-    Person(github_login='Glebanister', first_name='Gleb', last_name='Marin',
-           facts=['I like to drink water', 'I don\'t like to drink water', 'My name is Gleb']),
+    Person(github_login='gt22', first_name='Igor', last_name='Engel',
+           facts=['Питонячу где хочу', 'Люблю svn', 'MLкаю в свободное время (которого нет)']),
 ]
 
 answers = {}
